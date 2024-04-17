@@ -224,7 +224,7 @@ body{
 @media (max-width: 900px) {
     
     .cabecalho {
-        padding: 5%;
+        padding: 1%;
     }
 
     .cabecalho__menu {
@@ -240,7 +240,6 @@ body{
         display: flex;
         align-items: center;
         flex-direction: column;
-
     }
 
     .apresentacao__conteudo__titulo {
@@ -248,12 +247,12 @@ body{
     }
 
     .apresentacao__conteudo__imagem {
-        width: 21%;
+        width: 40%;
+        padding-top: 30%;
     }
 
     .apresentacao__conteudo__minitexto{
-        font-size: 1.1rem;
-        
+        font-size: 1.1rem;   
     }
 
     .apresentacao__contatos {
@@ -285,7 +284,7 @@ body{
     }
 
     .apresentacao__projetos__titulo {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .apresentacao__projetos__subtitulo {
@@ -293,11 +292,11 @@ body{
     }
 
     .apresentacao__projetos__texto {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .apresentacao__projetos > img,img{
-            width: 400px;
+            width: 360px;
     }
 
     .apresentacao__projetos__link {
