@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <!-- Optei por usar as classes ao invês do styles-inline para uma melhor organização do projeto -->
+    <!-- Optei por usar as classes ao invês do styles-inline para uma melhor organização do projeto e centralização das classes utilizadas-->
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a class="cabecalho__menu__links" href="#Contatos">
@@ -26,12 +26,12 @@
             </a>
         </nav> 
     </header>
-        <!-- Utilizei como inspiração para o meu código o design do Figma criado por José Luiz. As principais inspirações foram o esquema de cores e a apresentação dos contatos. O restante seguiu a mesma lógica, porém com ideias originadas por mim.   ttps://www.figma.com/file/AHs06wNRHbB60f3XY5K6CX/Personal-Portfolio-(Community)?type=design&node-id=28%3A2&mode=design&t=n9j992a6xtMSBSWX-1 -->
+        <!-- Utilizei como inspiração para o meu código o design do Figma criado por José Luiz. As principais inspirações foram o esquema de cores e a apresentação dos contatos. O restante seguiu a mesma lógica, porém com ideias originadas por mim. https://www.figma.com/file/AHs06wNRHbB60f3XY5K6CX/Personal-Portfolio-(Community)?type=design&node-id=28%3A2&mode=design&t=n9j992a6xtMSBSWX-1 -->
     <main class="apresentacao">
         <!-- As sections foram utilizadas para organizar de maneira inteligente cada setor do código: apresentação e contatos, sobre mim, habilidades e, por fim, projetos. -->
-        <section class="apresentacao__conteudo">
+        <section class="apresentacao__conteudo" id="Contatos">
             <img class="apresentacao__conteudo__imagem" src="assets/Lucas.png" alt="Foto de Lucas Rivetti">
-            <h1 class="apresentacao__conteudo__titulo" id="Contatos">
+            <h1 class="apresentacao__conteudo__titulo">
                 Prazer, meu nome é Lucas Rivetti
             </h1>
             <p class="apresentacao__conteudo__minitexto">
@@ -39,52 +39,52 @@
             </p>
             <div class="apresentacao__contatos">
                 <h2>Contatos:</h2>
-                <a class="apresentacao__contatos__link" href="https://www.instagram.com/Lucas_Rivetti/">
+                <a class="apresentacao__contatos__link" href="https://www.instagram.com/Lucas_Rivetti/" target="_blank">
                    <img src="./assets/instagram-icon.png" alt="icone do Instagram"> 
                    Instagram
                 </a>
-                <a class="apresentacao__contatos__link" href="https://github.com/LucasRivetti">
+                <a class="apresentacao__contatos__link" href="https://github.com/LucasRivetti" target="_blank">
                     <img src="./assets/github-icon.png" alt="icone do GitHub">
                     GitHub
                 </a>
-                <a class="apresentacao__contatos__link" href="https://www.linkedin.com/in/lucas-rivetti-b44b89289/">
+                <a class="apresentacao__contatos__link" href="https://www.linkedin.com/in/lucas-rivetti-b44b89289/" target="_blank">
                    <img src="./assets/linkedin-icon.png" alt="icone do Linkedin"> 
                    Linkedin
                 </a>
-                <a class="apresentacao__contatos__link" href="mailto:lucassantosrivetti@gmail.com">
+                <a class="apresentacao__contatos__link" href="mailto:lucassantosrivetti@gmail.com" target="_blank">
                     <img src="./assets/email-icon.png" alt="icone de E-mail">
                     lucassantosrivetti@gmail.com
                 </a>
             </div>
         </section>
         
-        <section class="apresentacao__sobre-mim">
-            <h1 class="apresentacao__sobre-mim__titulo" id="sobre-mim">
+        <section class="apresentacao__sobre-mim" id="sobre-mim">
+            <h1 class="apresentacao__sobre-mim__titulo" >
                 Sobre mim
             </h1>
             <p class="apresentacao__sobre-mim__texto">
-                &nbsp; Olá! Sou Lucas Rivetti, estudante de Ciência da Computação pela Universidade Federal de São João del-Rei (UFSJ). Optei por seguir este curso pois sempre fui apaixonado por tecnologia, jogos e áreas similares, além de considerar a computação um âmbito extremamente rico, amplo e atrativo.<br> &nbsp;  Comecei a estudar programação por volta de novembro de 2023, logo após a conclusão do ENEM. Desde então, tenho mantido uma rotina de estudos consistente, com foco, principalmente, na plataforma Alura, em que já conquistei diversos <a class="apresentacao__sobre-mim__texto__link" href="https://cursos.alura.com.br/user/lucassantosrivetti/fullCertificate/ec9486ae0c0498ac3e80b3358bb1d91c">certificados</a> e muito conhecimento. No momento, estou focado no front-end e tenho me aperfeiçoado bastante em HTML e CSS como base. Ademais, também possuo a pretensão de continuar minha jornada dando enfoque ao React.<br> &nbsp; Portanto, meu principal objetivo é explorar as inúmeras áreas e linguagens de programação, a fim de encontrar meu caminho profissional, visando a procura por uma área que desperte o meu interesse e pela qual eu tenha paixão. Além do anseio de ser realizado com o meu trabalho e alcançar a liberdade financeira para garantir segurança e lazer.
+                &nbsp; Olá! Sou Lucas Rivetti, estudante de Ciência da Computação pela Universidade Federal de São João del-Rei (UFSJ). Optei por seguir este curso pois sempre fui apaixonado por tecnologia, jogos e áreas similares, além de considerar a computação um âmbito extremamente rico, amplo e atrativo.<br> &nbsp;  Comecei a estudar programação por volta de novembro de 2023, logo após a conclusão do ENEM. Desde então, tenho mantido uma rotina de estudos consistente, com foco, principalmente, na plataforma Alura, em que já conquistei diversos <a class="apresentacao__sobre-mim__texto__link" href="https://cursos.alura.com.br/user/lucassantosrivetti/fullCertificate/ec9486ae0c0498ac3e80b3358bb1d91c" target="_blank" title="Ir para os certificados">certificados</a> e muito conhecimento. No momento, estou focado no front-end e tenho me aperfeiçoado bastante em HTML e CSS como base. Ademais, também possuo a pretensão de continuar minha jornada dando enfoque ao React.<br> &nbsp; Portanto, meu principal objetivo é explorar as inúmeras áreas e linguagens de programação, a fim de encontrar meu caminho profissional, visando a procura por uma área que desperte o meu interesse e pela qual eu tenha paixão. Além do anseio de ser realizado com o meu trabalho e alcançar a liberdade financeira para garantir segurança e lazer.
             </p>
         </section>
         
-        <section class="apresentacao__habilidades">
-            <h1 class="apresentacao__habilidades__titulo" id="habilidades">
+        <section class="apresentacao__habilidades" id="habilidades">
+            <h1 class="apresentacao__habilidades__titulo">
                 Habilidades
             </h1>
             <ul class="apresentacao__habilidades__lista">
-                <li class="apresentacao__habilidades__item">HTML inicial</li>
-                <li class="apresentacao__habilidades__item">CSS inicial</li>
-                <li class="apresentacao__habilidades__item">C inicial</li>
-                <li class="apresentacao__habilidades__item">JavaScript inicial</li>
-                <li class="apresentacao__habilidades__item">Aprendizado contínuo</li>
-                <li class="apresentacao__habilidades__item">Comprometimento</li>
-                <li class="apresentacao__habilidades__item">Proatividade</li>
-                <li class="apresentacao__habilidades__item">Resiliência</li>
+                <li class="apresentacao__habilidades__item" title="Possuo conhecimentos básicos da tecnologia, mas estou sempre buscando me aprofundar mais.">HTML inicial</li>
+                <li class="apresentacao__habilidades__item" title="Possuo conhecimentos básicos da tecnologia, mas estou sempre buscando me aprofundar mais.">CSS inicial</li>
+                <li class="apresentacao__habilidades__item" title="Possuo conhecimentos básicos da Linguagem, mas estou sempre buscando me aprofundar mais.">C inicial</li>
+                <li class="apresentacao__habilidades__item" title="Possuo conhecimentos básicos da Linguagem, mas estou sempre buscando me aprofundar mais.">JavaScript inicial</li>
+                <li class="apresentacao__habilidades__item" title="Eu me esforço sempre para adquirir conhecimento e gosto muito de aprender">Aprendizado contínuo</li>
+                <li class="apresentacao__habilidades__item" title="Me comprometo com tudo o que me proponho a fazer.">Comprometimento</li>
+                <li class="apresentacao__habilidades__item" title="Busco identificar todos os caminhos possíveis para resolver os problemas da melhor forma possível.">Proatividade</li>
+                <li class="apresentacao__habilidades__item" title="Tento sempre manter-me de pé e ativo, por mais difíceis e estressantes que sejam as situações.">Resiliência</li>
             </ul>
         </section>
-        <!-- O código de ambos os projetos está disponível no GitHub. Optei por colocar apenas o link do projeto "radando" pois meu GitHub já está disponível nos contatos. -->
-        <section class="apresentacao__projetos">
-            <h1 class="apresentacao__projetos__titulo" id="projetos">
+        <!-- O código de ambos os projetos está disponível no GitHub. Optei por colocar apenas o link do projeto "rodando" pois meu GitHub já está disponível nos contatos. -->
+        <section class="apresentacao__projetos"id="projetos">
+            <h1 class="apresentacao__projetos__titulo">
                 Projetos
             </h1>
             <h2 class="apresentacao__projetos__subtitulo">
@@ -94,17 +94,17 @@
                 Um pequeno projeto de um jogo com números aleatórios feito com o intuito de treinar as habilidades de manipular o JavaScript juntamente com o HTML. Fui responsável pelo JavaScript do projeto.
             </p>
             <img src="./assets/Jogo.png" alt="Foto do Jogo do Número Secreto">
-            <a class="apresentacao__projetos__link" href="https://jogo-rose-seven.vercel.app/">
+            <a class="apresentacao__projetos__link" href="https://jogo-rose-seven.vercel.app/" title="Ir para o jogo" target="_blank">
             Jogo
             </a> 
             <h2 class="apresentacao__projetos__subtitulo">
                 Portfólio Teste
             </h2>
             <p class="apresentacao__projetos__texto">
-                Desenvolvido para testar conhecimentos sobre HTML e CSS, este é um portfólio simples e prático que utiliza os conceitos básicos da linguagem, além de um projeto de design do Figma.
+                Desenvolvido para testar conhecimentos sobre HTML e CSS, este é um portfólio simples e prático que utiliza os conceitos básicos das tecnologias, além de um projeto de design do Figma.
             </p>
             <img src="./assets/Portfólio.png" alt=" Foto do Portfólio Página Inicial">
-            <a class="apresentacao__projetos__link" href="https://portfolio-five-henna-78.vercel.app/index.html">
+            <a class="apresentacao__projetos__link" href="https://portfolio-five-henna-78.vercel.app/index.html" title="Ir para o portifólio" target="_blank">
                 Portfólio
             </a>
         </section> 

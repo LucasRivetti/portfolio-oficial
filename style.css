@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* Declarando variaveis que irão ser utilizadas diversas vezes ao longo do codigo */
+/* Declarando variáveis que irão ser utilizadas diversas vezes ao longo do codigo */
 :root{
     --cor-principal: #FFFFFF;
     --cor-secundaria: #FFEA9F;
@@ -9,7 +9,7 @@
 
     --fonte-primaria: "Poppins", sans-serif;
 }
-/* reset geral na apliação para melhor manipulação e manutenção  */
+/* reset geral na aplicação para melhor manipulação e manutenção  */
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@ body{
     font-family: var(--fonte-primaria);
     padding: 20px;
 }
-/* foi utilizado s biblioteca flexbox para a montagem desse codigo optei pela mesma por ter aprendido no curso sobre ela, porém pretendo me aprofundar em outras bibliotecas */
+/* foi utilizado a biblioteca flexbox para a montagem desse código. Optei pela mesma por ter aprendido no curso sobre ela, porém pretendo me aprofundar em outras bibliotecas */
 .cabecalho{
     position: fixed;
     top: 0;
@@ -34,13 +34,13 @@ body{
     justify-content: center;
     align-items: center;
 }
-/* cabeçalho fixo no topo da pagina para uma navegação mais rapida aos pontos de interesse. */
+/* cabeçalho fixo no topo da página para uma navegação mais fluída aos pontos de interesse. */
 .cabecalho__menu{
     display: flex;
     justify-content: center;
     gap: 50px;
 }
-/* tentei colocar a maiorias das unidades de medida em "medidas variaveis" com o intuito de melhorar a acessibilidade do site. */
+/* tentei colocar a maiorias das unidades de medida em "medidas variáveis" com o intuito de melhorar a acessibilidade do site. */
 .cabecalho__menu__links{
     font-size: 1.25rem;
     font-weight: 400;
@@ -204,7 +204,7 @@ body{
     background-color: #717171;
     color: var(--cor-principal);
     transition: background-color 0.2s ease-in;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .apresentacao__projetos__link:hover{
@@ -220,7 +220,7 @@ body{
     font-weight: 400;
 
 }
-/* configuração para os dispositivos moveis */
+/* configuração para os dispositivos móveis */
 @media (max-width: 900px) {
     
     .cabecalho {
@@ -240,6 +240,7 @@ body{
         display: flex;
         align-items: center;
         flex-direction: column;
+        margin-top: 20%;
     }
 
     .apresentacao__conteudo__titulo {
@@ -248,7 +249,6 @@ body{
 
     .apresentacao__conteudo__imagem {
         width: 40%;
-        padding-top: 30%;
     }
 
     .apresentacao__conteudo__minitexto{
